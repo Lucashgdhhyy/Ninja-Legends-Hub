@@ -16,6 +16,9 @@ OrionLib:MakeNotification({
 Tab:AddButton({
 	Name = "Auto Farm",
 	Callback = function()
-      		print("button pressed")
+      		print("button pressed")                 while true do
+wait(0.0001)
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("GeneralAttack"):FireServer()
+end
   	end    
 })
