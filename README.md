@@ -22,3 +22,4 @@ game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("
 end
   	end    
 })
+OrionLib:Init()
